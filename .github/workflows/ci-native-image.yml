@@ -43,4 +43,4 @@ jobs:
 
       - name: Build Native Image
         run: |
-          mvn clean -Pnative native:compile -e -X
+          mvn clean -Pnative native:compile -Dmaven.test.skip -e -X
