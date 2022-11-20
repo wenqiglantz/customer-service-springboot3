@@ -1,4 +1,4 @@
-name: CI Native Image workflow
+name: CI Native Image Buildpacks workflow
 
 on:
   workflow_dispatch:
