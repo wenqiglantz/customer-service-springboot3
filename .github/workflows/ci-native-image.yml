@@ -25,7 +25,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@d0651293c4a5a52e711f25b41b05b2212f385d28
 
-      - uses: graalvm/setup-graalvm@01b9840538b867061986ea406d1b79c91a701d17
+      - uses: graalvm/setup-graalvm@1478c743ed947e10f0af6ed9eea34f564dd5bf61
         with:
           version: 'dev' # change to 'latest' later
           java-version: '17'
