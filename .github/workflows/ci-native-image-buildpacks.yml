@@ -11,6 +11,9 @@ on:
 jobs:
 
   build-and-deploy:
+    permissions:
+      id-token: write # need this for OIDC
+      contents: read
 
     runs-on: ubuntu-latest
 
